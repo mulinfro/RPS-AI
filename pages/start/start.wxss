@@ -1,0 +1,32 @@
+page{
+	background-color: #faf8ef;
+}
+
+.actionpic{
+  background-color: #44aacc;
+	border-radius: 35rpx;
+  width: 530rpx;
+  height: 300rpx;
+  margin-left: 120rpx;
+  margin-top: 80rpx;
+  margin-bottom: 20rpx;
+
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+}
+
+.p1{
+  margin-left: 120rpx;
+  margin-right: 100rpx;
+  
+}
+
+.btn
+{
+  margin-left: 120rpx;
+  margin-top: 20rpx;
+  margin-right: 100rpx;
+}

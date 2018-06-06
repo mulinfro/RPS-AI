@@ -1,0 +1,27 @@
+/**app.wxss**/
+
+@import 'public/style/weui.wxss';
+
+.container {
+  height: 100%;
+  
+  align-items: center;
+  justify-content: space-between;
+  padding: 50rpx 0;
+  box-sizing: border-box;
+  background-color: #faf8ef;
+} 
+
+.containerindex {
+  height: 100%;
+  align-items: center;
+  
+  background-color: #faf8ef;
+}
+
+/* common */
+.common-text
+{
+	font-size: 16px;
+	color: #cdc1b3;
+}

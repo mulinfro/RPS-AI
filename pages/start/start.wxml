@@ -1,0 +1,28 @@
+<view class="containerindex">
+
+
+<view style="cover">
+        <view style="p1">
+        <image style="background-color: #eeeeee" mode="aspectFill" src="../../image/head_cover.jpg" class="actionpic"></image>
+    </view>
+  </view>
+
+    <view class="score">
+      <view class="scoreContent">
+        <button class="item titleItem btn" bindtap='gameinfo'> 游戏策略 </button>
+      </view>
+    </view>
+
+    <view class="score">
+      <view class="scoreContent">
+        <button class="item titleItem btn" bindtap="game_easy"> 简单版AI </button>
+      </view>
+    </view>
+
+    <view class="score">
+      <view class="scoreContent">
+        <button class="item titleItem btn" bindtap="game_hard"> 困难版AI </button>
+      </view>
+    </view>
+
+</view>

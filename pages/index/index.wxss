@@ -1,0 +1,124 @@
+/**index.wxss**/
+
+/* common */
+.primary-text
+{
+	font-size: 14px;
+	color: #cdc1b3;
+}
+
+.center
+{
+	text-align: center;
+}
+
+/* override */
+page{
+	background-color: #faf8ef;
+}
+
+
+
+/*标题栏*/
+.info
+{
+	height: 49px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+  margin-bottom: 50rpx;
+}
+
+.info .score
+{
+	flex: 1;
+	display: inline-flex;
+	justify-content: center;
+  margin: 20px;
+}
+
+.info .scoreContent
+{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #bbada0;
+	border-radius: 3px;
+	width: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.info .item
+{
+	text-align: center;
+}
+
+.info .titleItem
+{
+	color: #eee4da;
+	font-size: 14px;
+}
+
+.info .contentItem
+{
+	margin-top: 5rpx;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+
+.leftbox{
+  width: 60rpx;
+  height: 100%;
+  float: left;
+  margin-top: 0rpx;
+}
+
+.rightbox{
+    height: 100%;
+    margin-left: 0rpx;
+}
+
+.back{
+  margin: 5rpx;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 5rpx;
+}
+
+.playaction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actionpic{
+  background-color: #44aacc;
+	margin: 50rpx;
+	height: 350rpx;
+	width: 550rpx;
+	border-radius: 35rpx;
+	display: flex;
+	flex-direction: column;
+	padding: 6rpx;
+}
+
+.button{
+	background-color: #acacac;
+	color:white;
+}
+
+
+.placeholder{
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    background-color: #EBEBEB;
+    height: 2.3em;
+    line-height: 2.3em;
+    color: #cfcfcf;
+}

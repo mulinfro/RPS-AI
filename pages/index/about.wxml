@@ -1,0 +1,43 @@
+<view class="container page article">
+  <view class='weui-article'>
+  
+<rich-text nodes="{{nodex}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node7}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{nodey}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{nodez}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node7}}" class='' style='text-indent:2em' />
+
+<rich-text nodes="{{node0}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node7}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node1}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node2}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node3}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node4}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node5}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node6}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node7}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node8}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node9}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node10}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node11}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node12}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node13}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node14}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node15}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node16}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node17}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node18}}" />
+<rich-text nodes="{{node7}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node19}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node20}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node22}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node23}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node24}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node25}}" class='' style='text-indent:2em' />
+<rich-text nodes="{{node26}}" class='' style='text-indent:2em' />
+
+</view> 
+  <!--打赏：-->
+
+
+</view>

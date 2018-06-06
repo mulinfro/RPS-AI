@@ -1,0 +1,15 @@
+{
+
+  "pages":[
+    "pages/start/start",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "石头剪刀布AI版",
+    "navigationBarTextStyle":"black"
+  }
+}

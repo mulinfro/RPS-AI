@@ -1,0 +1,12 @@
+/* pages/index/about.wxss */
+
+.actionpic{
+  background-color: #44aacc;
+	margin: 50rpx;
+	height: 350rpx;
+	width: 550rpx;
+	border-radius: 35rpx;
+	display: flex;
+	flex-direction: column;
+	padding: 6rpx;
+}

@@ -1,0 +1,72 @@
+<view class="container">
+
+<view style='margin-top: 0rpx;'>
+  <view class="leftbox">
+ <image mode="aspectFit" src="../../image/clear.png" class="back" bindtap="game_clear"></image>
+  </view>
+
+<view class="rightbox">
+  <view class="center" style='margin-bottom: 100rpx; font-size: 28px; color: #660033; '>Round {{rounds}}</view>
+   </view>
+    </view>
+
+  <view class="info">
+    <!-- 顶部输赢信息栏-->
+
+    <view class="score">
+      <view class="scoreContent">
+        <Text class="item titleItem">胜利</Text>
+        <Text class="item contentItem" id="current_score">{{win}}</Text>
+      </view>
+    </view>
+
+    <view class="score">
+      <view class="scoreContent">
+        <Text class="item titleItem">平局</Text>
+        <Text class="item contentItem" id="current_score">{{tie}}</Text>
+      </view>
+    </view>
+
+    <view class="score">
+      <view class="scoreContent">
+        <Text class="item titleItem">失败</Text>
+        <Text class="item contentItem" id="current_score">{{lose}}</Text>
+      </view>
+    </view>
+
+
+  </view>
+
+
+  <view class="page__bd page__bd_spacing">
+
+    <view class="weui-flex">
+            <view class="weui-flex__item"><view class="placeholder">{{human_action_text}}</view></view>
+            <view class="weui-flex__item"><view class="placeholder">{{game_res_text}}</view></view>
+            <view class="weui-flex__item"><view class="placeholder">{{computer_action_text}}</view></view>
+        </view>
+
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="">
+          <image src="{{human_pic}}" style='width:90%;' mode='aspectFit'></image>
+        </view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="">
+          <image src="{{bot_pic}}" style='width:90%;' mode='aspectFit'></image>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex" style='margin: 50rpx;'>
+      <view class="weui-flex__item"><button class="weui-btn mini-btn" bindtap='play_rock'> 石头 </button></view>
+      <view class="weui-flex__item"><button class="weui-btn mini-btn" bindtap='play_scissors'> 剪刀 </button></view>
+      <view class="weui-flex__item"><button class="weui-btn mini-btn" bindtap='play_paper'> 布 </button></view>
+    </view>
+  </view>
+
+</view>
